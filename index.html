@@ -9,7 +9,7 @@
   </head>
   <body>
     <header
-      class="md:flex hidden sticky md:relative w-full h-auto bg-red-300 justify-between p-4 text-white font-bold"
+      class="md:flex hidden fixed top-0 md:relative w-full h-auto bg-red-300 justify-between p-4 text-white font-bold"
     >
       <figure>
         <figcaption>Funny</figcaption>
@@ -17,7 +17,7 @@
       <nav class="flex gap-4">
         <a href="#profile">Profile</a>
         <a href="#education">Education</a>
-        <a href="">Portofolio</a>
+        <a href="#Portofolio">Portofolio</a>
       </nav>
     </header>
     <section
@@ -30,13 +30,15 @@
         >
           <figure class="flex flex-col gap-4 justify-center items-center">
             <img
-              width="100px"
+              width="150px"
               class="rounded-full border-solid border-4 border-red-300"
               src="./src/assets/profil.jpg"
               alt=""
             />
           </figure>
-          <article class="flex flex-col justify-center items-center">
+          <article
+            class="flex flex-col md:text-2xl text-xl justify-center items-center"
+          >
             <h1 class="font-bold">Hallo My Name is Fenny Oktaviani</h1>
             <p class="text-gray-500">I'm Student of Informatics Engineering</p>
           </article>
@@ -69,109 +71,172 @@
         </section>
         <section
           id="Portofolio"
-          class="flex flex-col justify-center items-center p-8"
+          class="flex flex-col justify-center items-center p-8 overflow-x-auto"
         >
           <h1 class="font-bold items-center text-2xl p-8">My Portofolio</h1>
-          <div class="grid grid-cols-4 gap-4 m-2 overflow-x-auto">
+          <div class="grid md:grid-cols-4 grid-cols-3 gap-4 m-2">
             <div
-              class="md:p-12 p-8 md:h-auto h-10 w-auto bg-gray-300 rounded-full md:rounded-xl transition-all delay-100 hover:scale-110 justify-center"
+              class="md:p-4 flex flex-col items-center justify-center md:gap-4 gap-2 p-2 md:h-auto h-auto w-auto bg-gray-300 rounded-xl transition-all delay-100 hover:scale-110 justify-center"
             >
+              <h2 class="font-bold text-sm md:text-2xl">Linkedin</h2>
               <img
-                width="50px"
+                width="60px"
                 src="https://img.icons8.com/ios-glyphs/30/000000/linkedin-circled--v1.png"
               />
+              <p class="flex w-full justify-center items-center text-sm">
+                <a href="https:/www.linkedin.com/in/fenny-oktaviani-874614241"
+                  >Find me on Linkedin</a
+                >
+              </p>
             </div>
             <div
-              class="md:p-12 p-8 h-10 md:h-auto w-auto bg-blue-300 rounded-full md:rounded-xl transition-all delay-100 hover:scale-110"
+              class="md:p-4 flex flex-col items-center justify-center md:gap-4 gap-2 p-2 md:h-auto h-auto w-auto bg-blue-300 rounded-xl transition-all delay-100 hover:scale-110 justify-center"
             >
+              <h2 class="font-bold md:text-2xl text-sm">Github</h2>
               <img
-                width="50px"
+                width="60px"
                 src="https://img.icons8.com/fluency-systems-filled/48/000000/github.png"
               />
+              <p class="text-sm">
+                <a href="https:/www.github.com/fnny04">Find me on Github</a>
+              </p>
             </div>
             <div
-              class="md:p-12 p-8 h-10 md:h-auto w-auto bg-red-300 rounded-full md:rounded-xl transition-all delay-100 hover:scale-110"
+              class="md:p-4 flex flex-col items-center justify-center md:gap-4 gap-2 p-2 md:h-auto h-auto w-auto bg-red-300 rounded-xl transition-all delay-100 hover:scale-110 justify-center"
             >
+              <h2 class="font-bold md:text-2xl text-sm">Instagram</h2>
               <img
-                width="50px"
+                width="60px"
                 src="https://img.icons8.com/ios-glyphs/30/000000/instagram-new.png"
               />
+              <p class="text-sm">
+                <a href="https:/www.instagram.com/foktvn"
+                  >Find me on Instagram</a
+                >
+              </p>
             </div>
+
             <div
-              class="md:p-12 p-8 h-10 md:h-auto w-auto bg-yellow-300 rounded-full md:rounded-xl transition-all delay-100 hover:scale-110"
+              class="md:p-4 flex flex-col items-center justify-center md:gap-4 gap-2 p-2 md:h-auto h-auto w-auto bg-yellow-300 rounded-xl transition-all delay-100 hover:scale-110 justify-center"
             >
+              <h2 class="font-bold md:text-2xl text-sm">Website</h2>
               <img
-                width="50px"
+                width="60px"
                 src="https://img.icons8.com/sf-black-filled/64/undefined/application-window.png"
               />
+              <p class="text-sm items-center align-items-center">
+                <a href="https:/fenny.me">Find me on My Website</a>
+              </p>
             </div>
-          </div>
-          <div class="grid grid-cols-4 gap-4 m-2 overflow-x-auto">
+
             <div
-              class="md:p-12 p-8 md:h-auto h-10 w-auto bg-red-300 rounded-full md:rounded-xl transition-all delay-100 hover:scale-110"
+              class="md:p-4 flex flex-col items-center justify-center md:gap-4 gap-2 p-2 md:h-auto h-auto w-auto bg-gray-300 rounded-xl transition-all delay-100 hover:scale-110 justify-center"
             >
+              <h2 class="font-bold text-sm md:text-2xl">Linkedin</h2>
               <img
-                width="50px"
+                width="60px"
                 src="https://img.icons8.com/ios-glyphs/30/000000/linkedin-circled--v1.png"
               />
+              <p class="flex w-full justify-center items-center text-sm">
+                <a href="https:/www.linkedin.com/in/fenny-oktaviani-874614241"
+                  >Find me on Linkedin</a
+                >
+              </p>
             </div>
+
             <div
-              class="md:p-12 p-8 h-10 md:h-auto w-auto bg-yellow-300 rounded-full md:rounded-xl transition-all delay-100 hover:scale-110"
+              class="md:p-4 flex flex-col items-center justify-center md:gap-4 gap-2 p-2 md:h-auto h-auto w-auto bg-blue-300 rounded-xl transition-all delay-100 hover:scale-110 justify-center"
             >
+              <h2 class="font-bold md:text-2xl text-sm">Github</h2>
               <img
-                width="50px"
+                width="60px"
                 src="https://img.icons8.com/fluency-systems-filled/48/000000/github.png"
               />
+              <p class="text-sm">
+                <a href="https:/www.github.com/fnny04">Find me on Github</a>
+              </p>
             </div>
+
             <div
-              class="md:p-12 p-8 h-10 md:h-auto w-auto bg-gray-300 rounded-full md:rounded-xl transition-all delay-100 hover:scale-110"
+              class="md:p-4 flex flex-col items-center justify-center md:gap-4 gap-2 p-2 md:h-auto h-auto w-auto bg-red-300 rounded-xl transition-all delay-100 hover:scale-110 justify-center"
             >
+              <h2 class="font-bold md:text-2xl text-sm">Instagram</h2>
               <img
-                width="50px"
+                width="60px"
                 src="https://img.icons8.com/ios-glyphs/30/000000/instagram-new.png"
               />
+              <p class="text-sm">
+                <a href="https:/www.instagram.com/foktvn"
+                  >Find me on Instagram</a
+                >
+              </p>
             </div>
             <div
-              class="md:p-12 p-8 h-10 md:h-auto w-auto bg-blue-300 rounded-full md:rounded-xl transition-all delay-100 hover:scale-110"
+              class="md:p-4 flex flex-col items-center justify-center md:gap-4 gap-2 p-2 md:h-auto h-auto w-auto bg-yellow-300 rounded-xl transition-all delay-100 hover:scale-110 justify-center"
             >
+              <h2 class="font-bold md:text-2xl text-sm">Website</h2>
               <img
-                width="50px"
+                width="60px"
                 src="https://img.icons8.com/sf-black-filled/64/undefined/application-window.png"
               />
+              <p class="text-sm">
+                <a href="https:/fenny.me">Find me on My Website</a>
+              </p>
             </div>
-          </div>
-          <div class="grid grid-cols-4 gap-4 m-2 overflow-x-auto">
+
             <div
-              class="md:p-12 p-8 md:h-auto h-10 w-auto bg-gray-300 rounded-full md:rounded-xl transition-all delay-100 hover:scale-110"
+              class="md:p-4 flex flex-col items-center justify-center md:gap-4 gap-2 p-2 md:h-auto h-auto w-auto bg-gray-300 rounded-xl transition-all delay-100 hover:scale-110 justify-center"
             >
+              <h2 class="font-bold text-sm md:text-2xl">Linkedin</h2>
               <img
-                width="50px"
+                width="60px"
                 src="https://img.icons8.com/ios-glyphs/30/000000/linkedin-circled--v1.png"
               />
+              <p class="flex w-full justify-center items-center text-sm">
+                <a href="https:/www.linkedin.com/in/fenny-oktaviani-874614241"
+                  >Find me on Linkedin</a
+                >
+              </p>
             </div>
+
             <div
-              class="md:p-12 p-8 h-10 md:h-auto w-auto bg-blue-300 rounded-full md:rounded-xl transition-all delay-100 hover:scale-110"
+              class="md:p-4 flex flex-col items-center justify-center md:gap-4 gap-2 p-2 md:h-auto h-auto w-auto bg-blue-300 rounded-xl transition-all delay-100 hover:scale-110 justify-center"
             >
+              <h2 class="font-bold md:text-2xl text-sm">Github</h2>
               <img
-                width="50px"
+                width="60px"
                 src="https://img.icons8.com/fluency-systems-filled/48/000000/github.png"
               />
+              <p class="text-sm">
+                <a href="https:/www.github.com/fnny04">Find me on Github</a>
+              </p>
             </div>
+
             <div
-              class="md:p-12 p-8 h-10 md:h-auto w-auto bg-red-300 rounded-full md:rounded-xl transition-all delay-100 hover:scale-110"
+              class="md:p-4 flex flex-col items-center justify-center md:gap-4 gap-2 p-2 md:h-auto h-auto w-auto bg-red-300 rounded-xl transition-all delay-100 hover:scale-110 justify-center"
             >
+              <h2 class="font-bold md:text-2xl text-sm">Instagram</h2>
               <img
-                width="50px"
+                width="60px"
                 src="https://img.icons8.com/ios-glyphs/30/000000/instagram-new.png"
               />
+              <p class="text-sm">
+                <a href="https:/www.instagram.com/foktvn"
+                  >Find me on Instagram</a
+                >
+              </p>
             </div>
             <div
-              class="md:p-12 p-8 h-10 md:h-auto w-auto bg-yellow-300 rounded-full md:rounded-xl transition-all delay-100 hover:scale-110"
+              class="md:p-4 flex flex-col items-center justify-center md:gap-4 gap-2 p-2 md:h-auto h-auto w-auto bg-yellow-300 rounded-xl transition-all delay-100 hover:scale-110 justify-center"
             >
+              <h2 class="font-bold md:text-2xl text-sm">Website</h2>
               <img
-                width="50px"
+                width="60px"
                 src="https://img.icons8.com/sf-black-filled/64/undefined/application-window.png"
               />
+              <p class="text-sm">
+                <a href="https:/fenny.me">Find me on My Website</a>
+              </p>
             </div>
           </div>
         </section>
